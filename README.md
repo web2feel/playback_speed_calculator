@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Playback speed calculator
+A nifty little app built on ReactJS. It lets you calculate the runtime of your media on different playback speeds.
+
+Live version of this app is available [here](https://web2feel.github.io/playback_speed_calculator/).
 
 ## Available Scripts
 
