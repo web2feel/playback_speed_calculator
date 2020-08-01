@@ -24,7 +24,7 @@ function Controls({ setpbdata }) {
     }
   };
   const hourHandle = (e) => {
-    e.target.value <= 99
+    e.target.value <= 999
       ? setHours(parseInt(e.target.value))
       : setHours(parseInt("00"));
   };

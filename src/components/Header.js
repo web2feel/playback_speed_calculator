@@ -12,7 +12,10 @@ function Header() {
                 </g>
             </g>
         </svg>
+        <div>
         <h1> Playback speed calculator</h1>
+        <h2> A nifty app to calculate the playback speed of your media. </h2>
+        </div>
       </div>
     )
 }

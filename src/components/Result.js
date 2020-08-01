@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+
 function Result({ pbdata }) {
   const [newTime, setNewTime] = useState("");
   useEffect(() => {
@@ -14,7 +15,7 @@ function Result({ pbdata }) {
     <div className="result">
       <h3>Updated Runtime</h3>
       <div
-        className="result-box"
+        className="result-box animate__animated animate__fadeIn"
         dangerouslySetInnerHTML={{ __html: newTime }}
       ></div>
     </div>
