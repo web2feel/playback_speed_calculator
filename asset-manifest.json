@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.a288fbe1.chunk.css",
-    "main.js": "/static/js/main.b3a2cb4d.chunk.js",
-    "main.js.map": "/static/js/main.b3a2cb4d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a6718590.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a6718590.js.map",
-    "static/css/2.bf0d58e5.chunk.css": "/static/css/2.bf0d58e5.chunk.css",
-    "static/js/2.f1f3f898.chunk.js": "/static/js/2.f1f3f898.chunk.js",
-    "static/js/2.f1f3f898.chunk.js.map": "/static/js/2.f1f3f898.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.74e722fe428a7d2f680dd6b4e060fa8f.js": "/precache-manifest.74e722fe428a7d2f680dd6b4e060fa8f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.bf0d58e5.chunk.css.map": "/static/css/2.bf0d58e5.chunk.css.map",
-    "static/css/main.a288fbe1.chunk.css.map": "/static/css/main.a288fbe1.chunk.css.map",
-    "static/js/2.f1f3f898.chunk.js.LICENSE.txt": "/static/js/2.f1f3f898.chunk.js.LICENSE.txt"
+    "main.css": "/playback_speed_calculator/static/css/main.a288fbe1.chunk.css",
+    "main.js": "/playback_speed_calculator/static/js/main.15422b6a.chunk.js",
+    "main.js.map": "/playback_speed_calculator/static/js/main.15422b6a.chunk.js.map",
+    "runtime-main.js": "/playback_speed_calculator/static/js/runtime-main.f6af96bd.js",
+    "runtime-main.js.map": "/playback_speed_calculator/static/js/runtime-main.f6af96bd.js.map",
+    "static/css/2.bf0d58e5.chunk.css": "/playback_speed_calculator/static/css/2.bf0d58e5.chunk.css",
+    "static/js/2.f1f3f898.chunk.js": "/playback_speed_calculator/static/js/2.f1f3f898.chunk.js",
+    "static/js/2.f1f3f898.chunk.js.map": "/playback_speed_calculator/static/js/2.f1f3f898.chunk.js.map",
+    "index.html": "/playback_speed_calculator/index.html",
+    "precache-manifest.9a49b7c6aeed9d9ddc1007b91c832598.js": "/playback_speed_calculator/precache-manifest.9a49b7c6aeed9d9ddc1007b91c832598.js",
+    "service-worker.js": "/playback_speed_calculator/service-worker.js",
+    "static/css/2.bf0d58e5.chunk.css.map": "/playback_speed_calculator/static/css/2.bf0d58e5.chunk.css.map",
+    "static/css/main.a288fbe1.chunk.css.map": "/playback_speed_calculator/static/css/main.a288fbe1.chunk.css.map",
+    "static/js/2.f1f3f898.chunk.js.LICENSE.txt": "/playback_speed_calculator/static/js/2.f1f3f898.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a6718590.js",
+    "static/js/runtime-main.f6af96bd.js",
     "static/css/2.bf0d58e5.chunk.css",
     "static/js/2.f1f3f898.chunk.js",
     "static/css/main.a288fbe1.chunk.css",
-    "static/js/main.b3a2cb4d.chunk.js"
+    "static/js/main.15422b6a.chunk.js"
   ]
 }
