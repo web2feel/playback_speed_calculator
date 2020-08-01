@@ -15,7 +15,7 @@ function App() {
       </div>
       <div className="footer">
         <p> A ReactJS based project by Jinson Abraham</p>
-        <p> Find this on Github </p> 
+        <p> Find this on <a href="https://github.com/web2feel/playback_speed_calculator">Github</a>  </p> 
       </div>
     </div>
   );
