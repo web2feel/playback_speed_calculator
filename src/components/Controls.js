@@ -15,7 +15,7 @@ function Controls({ setpbdata }) {
   }, [hours, mins, secs]);
 
   useEffect(() => {
-    setpbdata(deciTime / speed);
+    setpbdata((deciTime / speed) || 0);
   }, [deciTime, speed]);
 
   const focusHandle = (e) => {
@@ -25,14 +25,18 @@ function Controls({ setpbdata }) {
   };
   const hourHandle = (e) => {
     e.target.value <= 999
-      ? setHours(parseInt(e.target.value))
-      : setHours(parseInt("00"));
+      ? setHours(parseInt(e.target.value || 0))
+      : setHours(0);
   };
   const minHandle = (e) => {
-    e.target.value <= 59 ? setMins(parseInt(e.target.value)) : setMins(59);
+    e.target.value <= 59 
+      ? setMins(parseInt(e.target.value || 0 )) 
+      : setMins(59);
   };
   const secHandle = (e) => {
-    e.target.value <= 59 ? setSecs(parseInt(e.target.value)) : setSecs(59);
+    e.target.value <= 59 
+      ? setSecs(parseInt(e.target.value || 0)) 
+      : setSecs(59);
   };
   const speedHandle = (value) => {
     setSpeed(value);

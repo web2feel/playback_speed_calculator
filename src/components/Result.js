@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 function Result({ pbdata }) {
   const [newTime, setNewTime] = useState("");
   useEffect(() => {
-    if (isNaN(pbdata)) return;
+    //if (isNaN(pbdata)) return;
     let hours = Math.floor(pbdata / 60 / 60);
     let minutes = Math.floor(pbdata / 60) - hours * 60;
     let seconds = Math.floor(pbdata % 60);
